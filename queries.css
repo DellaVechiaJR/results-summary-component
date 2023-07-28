@@ -1,0 +1,58 @@
+@media only screen and (min-width: 90rem) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 931px;
+    background-color: hsl(221, 100%, 96%);
+  }
+  h3 {
+    margin-top: 1rem;
+  }
+  .top-part {
+    height: 450px;
+    width: 350px;
+    border-radius: 1.6rem;
+    grid-row-gap: 0;
+    position: absolute;
+    left: 22rem;
+  }
+  .content {
+    padding-left: 0%;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .big-number {
+    padding-top: 2rem;
+    font-size: 5rem;
+  }
+  .small-number {
+    padding-bottom: 3.5rem;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+  }
+  .summary {
+    height: 500px;
+    width: 690px;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    padding-right: 1.6rem;
+    margin-bottom: 1rem;
+    border-radius: 1.6rem;
+  }
+  .btn {
+    margin-bottom: 2rem;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
